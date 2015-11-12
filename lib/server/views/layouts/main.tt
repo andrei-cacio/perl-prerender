@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>prerender demo</title>
+</head>
+<body>
+    [% content %]
+    <script src="js/bundle.js"></script>
+</body>
+</html>

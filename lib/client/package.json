@@ -1,0 +1,26 @@
+{
+  "name": "ng-prerender",
+  "version": "1.0.0",
+  "description": "A simpel Angular2 app",
+  "main": "index.js",
+  "dependencies": {
+    "griddle-react": "^0.2.14",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.3.3",
+    "babel-preset-es2015": "^6.1.4",
+    "babel-preset-react": "^6.1.4",
+    "exports-loader": "^0.6.2",
+    "webpack": "^1.12.4",
+    "webpack-dev-server": "^1.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrei Cacio <andrei.cacio@yahoo.com> (http://andreicacio.com)",
+  "license": "ISC"
+}
