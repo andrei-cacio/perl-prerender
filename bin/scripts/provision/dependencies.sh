@@ -7,6 +7,7 @@ curl -L https://cpanmin.us | perl - --sudo App::cpanminus
 
 echo "Installing Perl Dependencies"
 apt-get install phantomjs -y
+apt-get install unzip -y
 apt-get install libxml-perl
 apt-get install libexpat1-dev
 
