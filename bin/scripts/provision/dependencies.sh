@@ -16,5 +16,6 @@ cpanm WWW::Mechanize::PhantomJS --notest --force
 cpanm YAML::XS --notest
 cpanm Template --notest
 
-#Nginx
+#install and config Nginx
 apt-get install nginx -y
+cp /vagrant/config/prerender.conf /etc/nginx/conf.d
