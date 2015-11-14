@@ -14,19 +14,26 @@ get '/' => sub {
 
     $mech->get('http://localhost:3000');
 
-    # open(my $HTML, '>', "$file") or die "Cannot open $file: $!";
+    my $htmlContent = $mech->content;
+    $htmlContent =~ s/(\<script.*\>.*?\<\/script\>)//s;
 
-    # print $_->{message}
-    #     for $mech->js_errors();
+    return $htmlContent;
+};
+
+get '/:rows' => sub {
+    my $file = './public/grid.html';
+    my $mech = WWW::Mechanize::PhantomJS->new(
+        autodie => 0,
+        log => 'ON',
+        port => 8081
+    );
+
+    $mech->get('http://localhost:3000/' . params->{rows});
 
     my $htmlContent = $mech->content;
     $htmlContent =~ s/(\<script.*\>.*?\<\/script\>)//s;
 
     return $htmlContent;
-
-    # print $HTML $htmlContent;
-
-    # close($HTML)
 };
 
 dance;

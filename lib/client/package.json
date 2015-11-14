@@ -5,8 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "griddle-react": "^0.2.14",
+    "history": "^1.13.1",
     "react": "^0.14.2",
     "react-dom": "^0.14.2",
+    "react-router": "^1.0.0",
     "underscore": "^1.8.3"
   },
   "devDependencies": {
