@@ -7,4 +7,10 @@ get '/' => sub {
     };
 };
 
+get '/:rows' => sub {
+    template 'index', {
+        title => 'Prerender'
+    };
+};
+
 dance;
