@@ -7,7 +7,7 @@ to powerup the solution simply run
 
 ```bash
 $ vagrant up && vagrant ssh
-``
+```
 
 ## Server-side`
 ### Start the web server
