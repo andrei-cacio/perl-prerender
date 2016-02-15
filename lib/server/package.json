@@ -10,8 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.5.2",
+    "babel-preset-react": "^6.5.0",
     "express": "^4.13.4",
+    "griddle-react": "^0.3.1",
     "jade": "^1.11.0",
-    "phantom": "^2.0.0-alpha"
+    "phantom": "^2.0.0-alpha",
+    "react": "^0.14.0-rc1",
+    "react-dom": "^0.14.0-rc1"
   }
 }
