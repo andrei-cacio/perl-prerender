@@ -1,9 +1,8 @@
 doctype html
 html
   head
+    link(href='/styles.css', rel="stylesheet")
     title= title
   body
-    h1= title
-    div(id='griddle')!=react
-        Loading ...
+    div(id='griddle')!=griddle
     script(src='/js/bundle.js')
